@@ -66,7 +66,7 @@ main {
 
 .about-text {
     flex: 2; 
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .about-text h2{
@@ -186,11 +186,6 @@ main {
     width: 175px;
 }
 
-@media(min-width: 1080px){
-    .about-text{
-        font-size: 2rem;
-    }
-}
 
 @media (max-width: 768px){
     .product .info{
@@ -204,6 +199,7 @@ main {
     .product ul li{
         flex-direction: column;;
     }
+
 } 
 
 /* --- Footer --- */
@@ -601,7 +597,7 @@ footer .social-media img {
     gap: 2rem;
     padding: 2rem;
     flex-wrap: wrap;
-    width: 100%;
+    width: 95%;
     justify-content: center;
   }
   
@@ -611,7 +607,7 @@ footer .social-media img {
     border-radius: 8px;
     transition: transform 0.2s ease;
     object-fit: cover;
-    height: 235px;
+    height: 230px;
   }
   
   .gallery img:hover {
@@ -650,7 +646,7 @@ footer .social-media img {
     cursor: pointer;
   }
   
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
 
     .gallery {
       grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -677,3 +673,119 @@ footer .social-media img {
       max-height: 60vh;
     }
   }
+
+  @media (max-width: 1366px) {
+    /* --- Header --- */
+    header {
+        padding: 0.5rem 1rem;
+    }
+
+    header .logo img {
+        height: 35px;
+    }
+
+    header nav ul li {
+        margin-left: 1.5rem;
+    }
+
+    /* --- Main Content --- */
+    .about-section {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .about-text {
+        font-size: 1.3rem;
+    }
+
+    .about-image {
+        gap: 1.5rem;
+        padding-top: 2rem;
+    }
+
+    .about-image img {
+        width: 82%;
+    }
+
+
+    /* --- Pagina productos --- */
+    .related-products h2 {
+        font-size: 2rem;
+    }
+
+    .product h3 {
+        font-size: 1.8rem;
+    }
+
+    .product ul li .product-text {
+        font-size: 1rem;
+    }
+
+    .product ul li .product-image img {
+        height: 120px;
+        width: 120px;
+    }
+
+    #Comics ul li img {
+        height: 180px;
+        width: 130px;
+    }
+
+    /* --- Seasons Section --- */
+    .season-details h3 {
+        font-size: 2.2rem;
+    }
+
+    .season-details p {
+        font-size: 1rem;
+    }
+
+    .season-info img {
+        width: 130px;
+        height: 195px;
+    }
+
+    .preview {
+        font-size: 1rem;
+    }
+
+    .season-chapters ul li img {
+        width: 130px;
+    }
+
+    /* --- Gallery --- */
+    .gallery img {
+        height: 130px;
+    }
+
+    /* --- Contact Form --- */
+    .contact-section {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+
+    .contact-section button {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .maps iframe {
+        min-height: 400px;
+    }
+
+    /* --- Footer --- */
+    footer {
+        padding: 1rem 2rem;
+    }
+
+    footer .social-media img {
+        padding: 0.4rem;
+    }
+}
