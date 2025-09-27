@@ -584,7 +584,7 @@ footer .social-media img {
     }
 
     .season-chapters ul li img{
-        width: 65%;
+        width: 80% !important;
         height: auto;
     }
 }
@@ -595,9 +595,9 @@ footer .social-media img {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    padding: 2rem;
+    padding: 2rem 0;
     flex-wrap: wrap;
-    width: 95%;
+    width: 100%;
     justify-content: center;
   }
   
