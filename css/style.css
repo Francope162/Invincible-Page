@@ -337,7 +337,7 @@ footer .social-media img {
 .form-group {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1.7rem;
     align-items: left;
 }
 
@@ -755,7 +755,7 @@ footer .social-media img {
 
     /* --- Gallery --- */
     .gallery img {
-        height: 130px;
+        height: 140px;
     }
 
     /* --- Contact Form --- */
